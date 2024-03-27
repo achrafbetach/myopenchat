@@ -1,5 +1,4 @@
 import React from "react";
-import ReactHtmlParser from "react-html-parser";
 
 const Answer = ({ content }) => {
   const handleCopy = () => {
@@ -22,7 +21,7 @@ const Answer = ({ content }) => {
         />
 
         <p className="text-lg font-medium py-2.5 text-gray-900">
-          {ReactHtmlParser(content)}
+          {content}
         </p>
       </div>
       <button

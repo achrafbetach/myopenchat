@@ -1,5 +1,4 @@
 import React from "react";
-import ReactHtmlParser from "react-html-parser";
 
 const Question = ({ content }) => {
   return (
@@ -11,7 +10,7 @@ const Question = ({ content }) => {
       />
 
       <p className="text-lg font-medium py-2.5 text-gray-900">
-        {ReactHtmlParser(content)}
+        {content}
       </p>
     </div>
   );

@@ -98,13 +98,6 @@ const Chat = () => {
           </button>
         </form>
       </div>
-      {/* <Messages messages={messages} />
-        <div className='flex items-center'>
-            <form onSubmit={handleSubmit}>
-                <input className='' value={question} onChange={(e) => setQuestion(e.target.value)} placeholder='Posez une question!' />
-                <button className='bg-sky-600 text-white px-4 py-1.5 text-lg font-semibold' type="submit">Envoyer</button>
-            </form>
-        </div> */}
     </div>
   );
 };
